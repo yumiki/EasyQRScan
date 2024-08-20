@@ -13,6 +13,10 @@ kotlin {
     configureIosTargets()
     jvm()
 
+    js(IR) {
+        browser()
+    }
+
     sourceSets {
         commonMain {
             dependencies {

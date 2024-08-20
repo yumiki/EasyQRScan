@@ -44,6 +44,11 @@ kotlin {
 //            export("io.github.kalinjul.kotlin.multiplatform:oidc-appsupport")
         }
     }
+
+    js(IR) {
+        browser()
+        binaries.executable()
+    }
 }
 
 android {
