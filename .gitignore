@@ -2,5 +2,6 @@
 build/
 .gradle
 .kotlin
+kotlin-js-store
 local.properties
 UserInterfaceState.xcuserstate
